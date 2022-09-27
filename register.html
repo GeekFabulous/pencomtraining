@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title> Register on our site</title>
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+
+
+</head>
+<body>
+    <form>
+        <label for="First Name"> First Name: </label> <br/>
+        <input type="text"  name="firstname" placeholder="Enter your first name here"/><br/> 
+        
+        <label for="Last Name"> Last Name: </label> <br/>
+        <input type="text"  name="lastname" placeholder="Enter your first name here"/> <br/>
+        
+        <label for="Email Address"> Email Address:</label> <br/>
+        <input type="email" name="email" required="required" placeholder="Enter your email address"/> <br/>
+        
+        <label for="password"> Password:</label> <br/>
+        <input type="password" name="password" required="required" placeholder="Enter password here"/> <br/>
+        
+        <label for="gender"> Select Your Gender</label> <br/>
+        <input type="radio"/> Male <br/>
+        <input type="radio"/> Female <br/>
+
+        <label for="dateOfBirth"> Select your date of birth </label> <br/>
+        <input type="date" name="date" required="required"/> <br/>
+
+        <label for="Age Category"> Age Range </label> <br/>
+        <select name="age">
+            <option value="1"> below 18 </option>
+            <option value="2">  18- 24 </option>
+            <option value="3"> 25 - 30</option>
+            <option value="1"> 30-40</option>
+            <option value="1"> above 40</option>
+        </select> <br/>
+            <hr/>
+            <input type="checkbox" value="toc"> Accept Terms and Conditions<br/> 
+
+            <label for="Upload"> Upload your profile photo</label><br/><br/>
+            <input type="file" > <br/> <br/> 
+        <textarea name="text" placeholder="any comments?" rows="10" cols="80"></textarea><br/>
+        <input type="submit" value="Register"/>
+    </form>
+</body>
+</html>
