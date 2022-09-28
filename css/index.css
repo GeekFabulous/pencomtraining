@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+*{
+    font-family: 'Passions Conflict', cursive;
+    font-size:x-large;
+}
+body{
+    background-color:beige;
+   
+}
+/* this is a comment in css */
+/* implementing selectors */
+p{      
+    color:darkcyan;
+
+}
+#headingFont{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.test_class{
+        color: pink;
+}
+.container{
+    margin: 4rem;
+}
+.paddingBox{
+    padding: 2rem;
+}
+.box{
+    border: 2px solid black;
+    border-radius:1rem;
+    
+}
+
+#test_id{
+    color:bisque
+}
